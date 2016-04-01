@@ -1,0 +1,14 @@
+﻿<Window x:Class="TonesPlayer.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TonesPlayer"
+        mc:Ignorable="d"
+        Title="TonesPlayer v 0.1" Height="322" Width="314" ResizeMode="CanMinimize" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Button x:Name="PlayStop_button" Content="Play" HorizontalAlignment="Left" Margin="10,248.548,0,0" VerticalAlignment="Top" Width="280" Click="PlayStop_button_Click" Height="26.452"/>
+        <TextBox x:Name="Notes_textBox" HorizontalAlignment="Left" Height="231.921" Margin="10,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="280" AcceptsReturn="True" VerticalScrollBarVisibility="Auto" Text="C3-1000-0&#xD;&#xA;Eb3-250-0&#xD;&#xA;F3-500-0&#xD;&#xA;G3-500-0&#xD;&#xA;C4-1000-0&#xD;&#xA;&#xD;&#xA;G3-1000-0&#xD;&#xA;Bb3-1000-0&#xD;&#xA;G3-250-0&#xD;&#xA;Eb3-500-0&#xD;&#xA;B2-1000-0&#xD;&#xA;&#xD;&#xA;G#2-500-0&#xD;&#xA;G2-500-0&#xD;&#xA;D3-1000-0&#xD;&#xA;G2-500-0&#xD;&#xA;D3-1000-0&#xD;&#xA;D#3-1000-0&#xD;&#xA;B2-1000-0&#xD;&#xA;C3-1000-0"/>
+
+    </Grid>
+</Window>
